@@ -677,7 +677,7 @@ class _MyHomePageState extends State<HomeScreenRMT>
         Constants_data.selectedDivisionId = null;
         Constants_data.selectedHQCode = null;
         Constants_data.repId = null;
-         Constants_data.SessionId = null;
+        Constants_data.SessionId = null;
         Constants_data.app_user= null;
         await Navigator.pushAndRemoveUntil(
           context,

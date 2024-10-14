@@ -1346,7 +1346,7 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
           print("There Is No Products for This Division");
          // showAlertDialog(response["message"]);
           await StateManager.logout();
-          Constants_data.selectedDivisionName= "";
+          Constants_data.selectedDivisionName = null;
           Constants_data.selectedDivisionId = null;
           Constants_data.selectedHQCode = null;
           Constants_data.repId = null;
@@ -1364,7 +1364,7 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
           showAlertDialog(response["message"]);
           await StateManager.logout(); // Wait for logout to complete
           //await SharedPrefs.instance.deleteUser(); // Wait for deletion to complete
-          Constants_data.selectedDivisionName = "";
+          Constants_data.selectedDivisionName = null;
           Constants_data.selectedDivisionId = null;
           Constants_data.selectedHQCode = null;
           Constants_data.repId = null;
@@ -1381,7 +1381,7 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
           //showAlertDialog(response["message"]);
           await StateManager.logout(); // Wait for logout to complete
           //await SharedPrefs.instance.deleteUser(); // Wait for deletion to complete
-          Constants_data.selectedDivisionName = "";
+          Constants_data.selectedDivisionName = null;
           Constants_data.selectedDivisionId = null;
           Constants_data.selectedHQCode = null;
           Constants_data.repId = null;
@@ -6917,7 +6917,7 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
           print("There Is No Products for This Division");
           //showAlertDialog(responseJson["message"]);
           await StateManager.logout();
-          Constants_data.selectedDivisionName= "";
+          Constants_data.selectedDivisionName = null;
           Constants_data.selectedDivisionId = null;
           Constants_data.selectedHQCode = null;
           Constants_data.repId = null;
@@ -6935,7 +6935,7 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
           showAlertDialog(responseJson["message"]);
           await StateManager.logout(); // Wait for logout to complete
           //await SharedPrefs.instance.deleteUser(); // Wait for deletion to complete
-          Constants_data.selectedDivisionName = "";
+          Constants_data.selectedDivisionName = null;
           Constants_data.selectedDivisionId = null;
           Constants_data.selectedHQCode = null;
           Constants_data.repId = null;
@@ -6952,7 +6952,7 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
           //showAlertDialog(responseJson["message"]);
           await StateManager.logout(); // Wait for logout to complete
           //await SharedPrefs.instance.deleteUser(); // Wait for deletion to complete
-          Constants_data.selectedDivisionName = "";
+          Constants_data.selectedDivisionName = null;
           Constants_data.selectedDivisionId = null;
           Constants_data.selectedHQCode = null;
           Constants_data.repId = null;
@@ -7093,7 +7093,7 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
           print("There Is No Products for This Division");
           //showAlertDialog(productsData["message"]);
           await StateManager.logout();
-          Constants_data.selectedDivisionName= "";
+          Constants_data.selectedDivisionName = null;
           Constants_data.selectedDivisionId = null;
           Constants_data.selectedHQCode = null;
           Constants_data.repId = null;
@@ -7111,7 +7111,7 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
           showAlertDialog(productsData["message"]);
           await StateManager.logout(); // Wait for logout to complete
          // await SharedPrefs.instance.deleteUser(); // Wait for deletion to complete
-          Constants_data.selectedDivisionName = "";
+          Constants_data.selectedDivisionName = null;
           Constants_data.selectedDivisionId = null;
           Constants_data.selectedHQCode = null;
           Constants_data.repId = null;
@@ -7128,10 +7128,9 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
           //showAlertDialog(productsData["message"]);
           await StateManager.logout(); // Wait for logout to complete
           //await SharedPrefs.instance.deleteUser(); // Wait for deletion to complete
-          Constants_data.selectedDivisionName = "";
+          Constants_data.selectedDivisionName = null;
           Constants_data.selectedDivisionId = null;
           Constants_data.selectedHQCode = null;
-          Constants_data.repId = null;
           Constants_data.repId = null;
           Constants_data.SessionId = null;
           Constants_data.app_user= null;
