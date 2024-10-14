@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_micro">Microlabs</string>
+    <string name="app_name_rmt">Rezmytrip</string>
+    <string name="app_name_olcare">Olcare</string>
+    <string name="app_name_foodapp">Food Express</string>
+    <string name="app_name_whitegoods">White Goods</string>
+    <string name="app_name_fmcg">FMCG</string>
+    <string name="app_name_heko">Heko</string>
+</resources>

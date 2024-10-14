@@ -1,0 +1,229 @@
+name: flexi_profiler
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+#  flutter_localizations: # Add this line
+#    sdk: flutter
+
+#  firebase_auth: ^0.18.0+1
+#  firebase_core: ^0.5.0
+#  firebase_messaging: 7.0.0
+#  firebase_storage: ^4.0.0
+#  cloud_firestore:  ^0.14.0+2
+  flutter_menu: ^0.4.1
+#  device_calendar: ^4.1.0
+# device_calendar: ^3.1.0
+  cupertino_icons: ^1.0.2
+  #  fluttertoast: ^3.1.3
+  carousel_slider:
+    git: https://github.com/oscarlindenbaum/flutter_carousel_slider
+  autocomplete_textfield: ^2.0.1
+  expressions: ^0.2.3
+  # expressions: ^0.1.3
+  intl: any
+  json_table: ^2.0.1
+  flutter_spinkit: ^5.0.0
+  http: ^0.13.4
+  # http: ^0.12.0+4
+  syncfusion_flutter_charts: ^20.4.41
+  sqflite: any
+  path_provider: ^2.0.8
+  #path_provider: any
+  url_launcher: ^6.0.3
+  #  url_launcher: ^5.0.3
+  get_it: ^7.2.0
+  #  month_picker_dialog: ^0.3.3
+  flutter_image_compress: ^1.1.3
+  table_calendar: ^2.2.3
+  uuid: any
+  expandable: ^5.0.1
+  connectivity_plus: ^2.2.0
+  firebase_messaging: ^14.2.1
+  #firebase_messaging: ^8.0.0-dev.15
+  table_sticky_headers: ^2.0.0
+#  horizontal_data_table: ^4.3.1
+#  horizontal_data_table: ^3.7.0
+#  horizontal_data_table: ^4.1.4
+  spear_menu: ^0.0.2
+  #  flutter_widget_from_html: ^0.6.0
+  flutter_widget_from_html_core: ^0.8.5+3
+  #  flutter_plugin_pdf_viewer: ^1.0.7
+  rxdart: ^0.27.3
+  # rxdart: ^0.26.0
+  flutter_slidable: ^0.5.4
+  tree_view: ^0.0.5
+  #  firebase_core: ^0.7.0
+  firebase_analytics: ^10.1.0
+  #  firebase_auth: ^0.20.1
+  #  firebase_storage: ^7.0.0
+  #  cloud_firestore: "0.14.1"
+  provider: ^6.0.2
+  # provider: ^4.3.3
+  timeago: ^3.0.1
+  google_sign_in: ^5.2.3
+  #google_sign_in: ^4.0.7
+  flutter_local_notifications: ^10.0.0
+  # flutter_local_notifications: ^4.0.1+2
+  validators: ^3.0.0
+  syncfusion_flutter_gauges: ^20.4.41
+  percent_indicator: ^4.2.2
+  device_info_plus: ^4.0.0
+  imei_plugin: 1.2.0
+#  styled_text: ^5.1.0
+  styled_text: ^5.1.0
+  fwfh_text_style: ^2.22.8+3
+  location: ^4.3.0
+  #location: ^3.2.4
+  #  location: ^3.0.0
+  flutter_polyline_points: ^1.0.0
+  archive: ^3.1.8
+  # archive: ^2.0.13
+  google_maps_flutter: any
+  flutter_platform_widgets: ^2.0.0
+  #  font_awesome_flutter: ^8.8.1
+  cron: ^0.5.1
+  speech_to_text: ^6.1.1
+  #speech_to_text: ^3.1.0
+  flutter_tts: ^3.0.0
+  #  wave: ^0.1.0
+  lottie: ^1.2.1
+  #lottie: ^0.7.0+1
+  package_info_plus: ^1.4.2
+  cached_network_image: any
+  #  advance_pdf_viewer: ^1.2.0
+  connectycube_sdk: ^2.0.9
+  #connectycube_sdk: ^1.0.0
+  shared_preferences: ^2.0.3
+  image_picker: ^0.8.4+4
+  #image_picker: ^0.6.7+4
+  fluttertoast: ^8.2.2
+#  fluttertoast: ^8.1.2
+  photo_view: ^0.14.0
+  # photo_view: ^0.11.0
+  #  flutter_neumorphic: ^3.0.3
+  flutter_treeview: ^1.0.7+1
+  dio: ^4.0.4
+  # dio: ^3.0.0
+  permission_handler: ^10.2.0
+  # permission_handler: ^5.0.1+1
+  #  simple_permissions: ^0.1.9
+  file_utils: ^1.0.0
+#  install_plugin: ^2.0.1
+  ffi: ^2.0.1
+  scrollable_table_view: ^1.0.1
+#  syncfusion_flutter_datagrid: ^20.3.61
+  data_table_2: ^2.2.1
+  file_picker: ^5.2.10
+  numberpicker: ^2.1.1
+  flutter_expandable_table: ^1.1.0
+  #dependency_overrides:
+  #intl: ^0.16.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/images/AddList.png
+    - assets/images/AIR.png
+    - assets/images/Calendar.png
+    - assets/images/Customer.png
+    - assets/images/DCREntry.png
+    - assets/images/DCRSummary.png
+    - assets/images/Drug.png
+    - assets/images/Expense.png
+    - assets/images/pob.png
+    - assets/images/KPI.png
+    - assets/images/Map.png
+    - assets/images/Professional.png
+    - assets/images/Territory.png
+    - assets/images/Hospital.png
+    - assets/images/profiler_logo_new.png
+    - assets/images/rmt_icon.png
+    - assets/images/drawer_header.png
+    - assets/images/default_user.png
+    - assets/images/Inbox.png
+    - assets/images/attachment_inbox.png
+    - assets/images/rtm_services.png
+    - assets/images/bottom_menu/settings.png
+    - assets/images/bottom_menu/list.png
+    - assets/images/bottom_menu/calendar.png
+    - assets/images/bottom_menu/survey.png
+    - assets/images/stamps/approved_stamp.png
+    - assets/images/stamps/holiday_icon.png
+    - assets/images/stamps/no_data_icon.png
+    - assets/images/stamps/no_internet_logo.png
+    - assets/images/stamps/on_leave_icon.png
+    - assets/images/stamps/server_error_logo.png
+    - assets/images/stamps/submitted_stamp.png
+    - assets/images/stamps/submitted_stamp_expense.png
+    - assets/images/stamps/sunday_icon.png
+    - assets/images/search.png
+    - assets/images/menu_bg.png
+    - assets/images/menu_bg_dark.png
+    - assets/images/side_menu_bg.png
+    - assets/map_style.txt
+    - assets/images/chat_bg.png
+    - assets/images/chat_bg_dark.jpg
+    - assets/images/Calls.png
+    - assets/images/destination_map_marker.png
+    - assets/images/driving_pin.png
+    - assets/images/source.png
+    - assets/images/destination.png
+    - assets/images/error_icon.png
+    - assets/images/ic_delete.png
+    - assets/images/source_marker.png
+    - assets/images/destination_marker.png
+    - assets/Lotti/google-voice-assist.json
+    - assets/Lotti/no_connection.json
+    - assets/Lotti/update_available.json
+    - assets/Lotti/updating_progress.json
+    - assets/Lotti/update_success.json
+    - assets/Lotti/option_menu.json
+    - assets/Lotti/scroll_animation.json
+    - assets/Lotti/touch_animation.json
+    - assets/images/pob_summary.png
+
+  fonts:
+    - family: TimesNewRoman
+      fonts:
+        - asset: assets/fonts/TimesNewRoman.ttf
+        - asset: assets/fonts/TimesNewRomanGras.ttf
+        - asset: assets/fonts/TimesNewRomanGrasItalique.ttf
+        - asset: assets/fonts/TimesNewRomanItalique.ttf
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Light.ttf
+          weight: 200
+        - asset: assets/fonts/Roboto-LightItalic.ttf
+          weight: 500
+
+    - family: RobotoMono
+      fonts:
+        - asset: assets/fonts/RobotoMono-Bold.ttf
+        - asset: assets/fonts/RobotoMono-BoldItalic.ttf
+        - asset: assets/fonts/RobotoMono-Italic.ttf
+        - asset: assets/fonts/RobotoMono-Light.ttf
+        - asset: assets/fonts/RobotoMono-LightItalic.ttf
+        - asset: assets/fonts/RobotoMono-Medium.ttf
+        - asset: assets/fonts/RobotoMono-MediumItalic.ttf
+        - asset: assets/fonts/RobotoMono-Regular.ttf
+        - asset: assets/fonts/RobotoMono-Thin.ttf
+        - asset: assets/fonts/RobotoMono-ThinItalic.ttf
+
+  uses-material-design: true

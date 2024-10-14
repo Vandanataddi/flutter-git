@@ -1,0 +1,221 @@
+{
+  "project_info": {
+    "project_number": "694754814245",
+    "project_id": "profiler-a222d",
+    "storage_bucket": "profiler-a222d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694754814245:android:9ef56d5f0df2fa84d9d2cc",
+        "android_client_info": {
+          "package_name": "com.flexi.fmcg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkqG9HiUaqb6urQBH2j4PXoqrcX4B-7GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694754814245:android:0a89e2a92837473fd9d2cc",
+        "android_client_info": {
+          "package_name": "com.flexi.foodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkqG9HiUaqb6urQBH2j4PXoqrcX4B-7GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694754814245:android:6626f989ea638353d9d2cc",
+        "android_client_info": {
+          "package_name": "com.flexi.heko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkqG9HiUaqb6urQBH2j4PXoqrcX4B-7GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694754814245:android:39f0e5044ec74d45d9d2cc",
+        "android_client_info": {
+          "package_name": "com.flexi.microlabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694754814245-biken51i2vb3e52mtnbq84kl70a53ecg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flexi.microlabs",
+            "certificate_hash": "ea29baf3ca4b8c78861de540486d39ae379a5b64"
+          }
+        },
+        {
+          "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkqG9HiUaqb6urQBH2j4PXoqrcX4B-7GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694754814245:android:d29d274b55172017d9d2cc",
+        "android_client_info": {
+          "package_name": "com.flexi.olcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkqG9HiUaqb6urQBH2j4PXoqrcX4B-7GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694754814245:android:1f797d44b1920bb5d9d2cc",
+        "android_client_info": {
+          "package_name": "com.flexi.rezmytrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkqG9HiUaqb6urQBH2j4PXoqrcX4B-7GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694754814245:android:6d4b540131fa3a83d9d2cc",
+        "android_client_info": {
+          "package_name": "com.flexi.whitegoods"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkqG9HiUaqb6urQBH2j4PXoqrcX4B-7GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694754814245-7ar9c28qerv4saqonmbgoti86djvhacm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
