@@ -2821,7 +2821,8 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
                                     child: CircularProgressIndicator(),
                                   ),
                                 )
-                              ] else ...[
+                              ]
+                              else ...[
                                 MaterialButton(
                                   onPressed: () async {
                                     loadingForReject = true;
