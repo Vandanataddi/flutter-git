@@ -954,7 +954,7 @@ class _AccountListScreen extends State<AccountListScreen> {
                 padding: EdgeInsets.all(3),
                 child: Align(
                     alignment: align,
-                    child:  Row(
+                    child: Row(
                         children:[
                           if(data["api_name"] == "GetFGODetails") ...[
                             Text(
@@ -969,7 +969,7 @@ class _AccountListScreen extends State<AccountListScreen> {
                               ),
                             )
                           ],
-                          Flexible(child:  Text(
+                          Flexible(child: Text(
                             // "${dt[rowDataChild[j]["widget_id"]] == null || dt[rowDataChild[j]["widget_id"]].toString().trim() == "" ? "N/A" : dt[rowDataChild[j]["widget_id"]]}",
                             "${rowDataChild[j]["widget_id"] == "fgo_request_status"
                                 ? (dt["is_invoice_uploaded"] == "Y"

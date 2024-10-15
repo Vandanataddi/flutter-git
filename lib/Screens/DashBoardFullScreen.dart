@@ -61,7 +61,8 @@ class _DetailsScreen extends State<DashBoardFullScreen> {
     if (msgData["widget_type"] == "barchart") {
       if (!isOriginal) {
         icon = Icons.bar_chart;
-      } else {
+      }
+      else {
         icon = Icons.timeline;
       }
     }
@@ -69,8 +70,7 @@ class _DetailsScreen extends State<DashBoardFullScreen> {
     return Hero(
       tag: "photo${msgData["title"]}",
       child: Material(
-          child: Scaffold(
-        appBar: AppBar(
+          child: Scaffold(appBar: AppBar(
           flexibleSpace: Constants_data.getFlexibleAppBar(themeChange.darkTheme),
           // actions: [
           //   InkWell(
@@ -140,7 +140,6 @@ class _DetailsScreen extends State<DashBoardFullScreen> {
           onItemClick: templateJson["isClickable"] == "Y"
               ? (data, index) async {
                   Map<String, dynamic> dataToSend = new HashMap();
-
                   List<String> params = [];
                   if (templateJson["Params"].toString().contains(",")) {
                     params = templateJson["Params"].toString().split(",");
@@ -153,15 +152,12 @@ class _DetailsScreen extends State<DashBoardFullScreen> {
                   for (int i = 0; i < params.length; i++) {
                     jsonParam[params[i]] = data["AccountId"];
                   }
-
                   dataToSend["ParentWidgetId"] = templateJson["ParentWidgetId"];
                   dataToSend["jsonParam"] = jsonParam;
                   dataToSend["Rep_Id"] = Constants_data.repId;
                   dataToSend["title_value"] = dataToSend["title_value"] = data["AccountName"];
                   dataToSend["selectedDate"] = selectedDate;
-
                   print("DataToSend : $dataToSend");
-
                   await Navigator.push(
                     context,
                     MaterialPageRoute(

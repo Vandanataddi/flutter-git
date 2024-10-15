@@ -7183,7 +7183,6 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
       "productId": productIds,
       "divisionCode": Constants_data.selectedDivisionId,
     };
-
     try {
       // Use the helper to make the POST request
       var responsedata = await _helper.postMethod(
