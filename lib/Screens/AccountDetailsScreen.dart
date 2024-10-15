@@ -1039,7 +1039,7 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
       await Constants_data.openDialogNoInternetConection(context);
     }
   }
-  GetproductDetailData({docNo,divisionCode,stateCode,hqCode}) async {
+  GetproductDetailData({docNo,divisionCode,stateCode,hqCode,monthCode}) async {
     bool isNetworkAvailable = await Constants_data.checkNetworkConnectivity();
     if (isNetworkAvailable) {
       String url = '/Dashboard/GetDoctorApprovalDetails';
@@ -1053,7 +1053,8 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
         "hqCode": hqCode,
         "stateCode": stateCode,
         'yearCode': '24-25',
-        'monthCode': "${DateFormat('MM').format(now)}",
+       // 'monthCode': "${DateFormat('MM').format(now)}",
+        'monthCode': monthCode,
       };
       try {
         final productjson = await _helper.postMethod(
@@ -5426,6 +5427,7 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
                                         divisionCode: getDoctorDetailsForApproval[index]["division_code"],
                                         stateCode: getDoctorDetailsForApproval[index]["state_code"],
                                         hqCode: getDoctorDetailsForApproval[index]["hq_code"],
+                                        monthCode: getDoctorDetailsForApproval[index]["month_code"],
                                       );
                                     }
                                   } else {
@@ -5970,7 +5972,8 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
                                 padding: EdgeInsets.all(10),
                                 child: Stack(
                                   children: [
-                                    Card(
+                                if (fgoType == 'Rate Difference' || fgoType == 'Trade Discount' || fgoType == 'Extra Scheme' || fgoType == 'Fixed Rate') ...[
+                                 Card(
                                       elevation: 5,
                                       shape: RoundedRectangleBorder(
                                         borderRadius: BorderRadius.circular(15),
@@ -5980,6 +5983,7 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
                                         child: Column(
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           children: [
+                                        if (fgoType == 'Rate Difference' || fgoType == 'Trade Discount' || fgoType == 'Extra Scheme' || fgoType == 'Fixed Rate') ...[
                                             Row(
                                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                               children: [
@@ -6034,7 +6038,7 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
                                                   child: Icon(Icons.close, color: Colors.red),
                                                 ),
                                               ],
-                                            ),
+                                            ),],
                                             SizedBox(height: 5),
                                             // if (fgoType == 'Extra Scheme' ||
                                             //     fgoType == 'Rate Difference' ||
@@ -6697,8 +6701,8 @@ class _AccountDetailsScreen extends State<AccountDetailsScreen>
                                       ),
                                     ),
                                   ],
+                                  ],
                                 ),
-
                               );
                             },
                           ),
